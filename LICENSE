@@ -1,0 +1,92 @@
+BEP3.0 PERSONAL / NON-COMMERCIAL LICENSE
+Version 1.0
+
+Copyright (c) Marcus Knop. All rights reserved.
+
+This license applies to the design files, manufacturing files, schematics,
+PCB layouts, Gerber files, drill files, documentation, source files and other
+materials contained in this repository (collectively, the "Files").
+
+1. PERSONAL AND NON-COMMERCIAL USE
+
+You are granted a non-exclusive, worldwide, royalty-free right to:
+
+- view and study the Files;
+- download and copy the Files;
+- modify the Files for your own purposes; and
+- manufacture or have manufactured BEP3.0 hardware based on the Files,
+
+provided that all such use is solely private and non-commercial.
+
+2. NON-COMMERCIAL REDISTRIBUTION
+
+You may redistribute the Files, or modified versions of the Files, only if:
+
+- the redistribution is entirely non-commercial and no fee, payment or other
+  consideration is requested or received;
+- this LICENSE file is included with the redistributed material;
+- the copyright notice is retained; and
+- modified versions are clearly identified as modified and are not presented
+  as an official BEP3.0 release by Marcus Knop or Maru Labs.
+
+3. COMMERCIAL USE IS PROHIBITED
+
+Without prior written permission from Marcus Knop, you may not use the Files
+or any design derived from them for commercial purposes.
+
+Prohibited commercial use includes, without limitation:
+
+- selling or offering BEP3.0 units for sale;
+- selling bare PCBs, assembled PCBs, kits or substantially equivalent products;
+- manufacturing or assembling units for payment or other consideration;
+- including the BEP3.0 design, in whole or in part, in a commercial product;
+- offering paid services based on the Files or derived designs;
+- using the Files in crowdfunding, pre-orders or other commercial fundraising;
+- licensing, sublicensing or otherwise commercially exploiting the Files.
+
+The exclusive right to offer BEP3.0 products for commercial sale remains with
+Marcus Knop. Commercial manufacturing by a third party is permitted only when
+expressly authorized in writing by Marcus Knop.
+
+For commercial licensing enquiries, contact the copyright holder.
+
+4. NO TRADEMARK RIGHTS
+
+This license does not grant permission to use the names "BEP3.0", "Maru Labs",
+associated logos, or other marks in a way that suggests endorsement, official
+origin or affiliation.
+
+5. NO WARRANTY
+
+THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, SAFETY OR REGULATORY COMPLIANCE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE
+LIABLE FOR ANY CLAIM, DAMAGE OR OTHER LIABILITY ARISING FROM THE USE,
+MANUFACTURE, MODIFICATION OR DISTRIBUTION OF THE FILES OR HARDWARE BASED ON
+THEM.
+
+Anyone manufacturing or using hardware based on the Files is responsible for
+verifying its suitability, safety and compliance with applicable laws and
+regulations.
+
+6. TERMINATION
+
+Your rights under this license terminate automatically if you violate its
+terms. Rights may be restored only with written permission from Marcus Knop.
+
+7. GOVERNING LAW AND JURISDICTION
+
+This license is governed by Swiss law.
+
+The place of jurisdiction is Schaffhausen, Switzerland, to the extent legally
+permitted.
+
+8. OTHER RIGHTS
+
+All rights not expressly granted by this license are reserved by Marcus Knop.
+
+For the avoidance of doubt: publication of the Files in a public repository
+does not place them in the public domain and does not grant permission for
+commercial use.
