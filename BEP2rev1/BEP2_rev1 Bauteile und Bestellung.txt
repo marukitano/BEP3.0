@@ -1,0 +1,25 @@
+2	100nF	CERAMIC-100NF-50V-10%-X7R(0805)	C0805	vorhanden	
+2	100u	CERAMIC-100UF-6.3V-20%-X5R(1206)	C1206	http://www.reichelt.de/Vielschicht-SMD-G1206-High-Cap/X5R-G1206-100-6/3/index.html?&ACTION=3&LA=2&ARTICLE=89744&GROUPID=4340&artnr=X5R-G1206+100%2F6	
+1	4.7u	CERAMIC-4.7UF-25V-10%-X5R(0805)	C0805	"http://www.reichelt.de/Vielschicht-SMD-G1206/X7R-G1206-68N/3/index.html?ACTION=3;ARTICLE=107465;SEARCH=X5R-G0805%204,7"	
+3	68n	C-EUC1206K	C1206K	vorhanden	
+3	100k	R-EU_R0805	R0805	vorhanden	
+3	27k	R-EU_R0805	R0805	vorhanden	
+2	47	R-EU_V235/17_1MM	V235/17_1MM	http://www.reichelt.de/2W-METALL-47/3/index.html?&ACTION=3&LA=446&ARTICLE=2353&artnr=2W+METALL+47&SEARCH=2W+metall+47	
+6	100k	SMD-RES-100K-1%-1/10W(0603)	R0603	vorhanden	
+2	100	SMD-RES-100R-5%-1/8W(0805)	R0805	http://www.distrelec.ch/de/widerstand-smd-100-ohm-0805-ve-5000-pc-yageo-rc0805jr-07100rl/p/11051427?q=*&filter_Category3=Widerst%C3%A4nde&filter_Geh%C3%A4usetyp=0805&filter_Category5=Metallschicht-Widerst%C3%A4nde%2C+SMD%2C+Rollenware&filter_Category4=SMD-+und+Schichtwiderst%C3%A4nde&filter_Widerstand%7E%7EkOhm=0.1&filter_Buyable=1&page=3&origPageSize=50&simi=97.5	
+5	10k	SMD-RES-10K-1%-1/8W(0805)	R0805	vorhanden	
+3	13	SMD-RES-13R-5%-1/4W(1206)	R1206	http://www.reichelt.de/SMD-1-4W-13/3/index.html?&ACTION=3&LA=446&ARTICLE=18254&artnr=SMD+1%2F4W+13&SEARCH=13+ohm	(teuer bei Reichelt billig bei Farnell)
+1	15k	SMD-RES-15K-1%-1/10W(0603)	R0603	vorhanden	
+2	18k	SMD-RES-18K-5%-1/10W(0603)	R0603	http://www.distrelec.ch/de/widerstand-smd-18-kohm-0805-ve-5000-pc-yageo-rc0805jr-0718kl/p/11051437?q=smd+18k+0805&page=7&origPos=6&origPageSize=50&simi=90.43	
+2	1k	SMD-RES-1K-5%-1/8W(0805)	R0805	vorhanden	
+1	2.2k	SMD-RES-2.2K-5%-1/8W(0805)	R0805	http://www.distrelec.ch/de/widerstand-smd-kohm-0805-ve-5000-pc-yageo-rc0805jr-072k2l/p/11051449?q=smd+2.2k+0805&page=10&origPos=11&origPageSize=50&simi=89.87	
+1	220	SMD-RES-220R-5%-1/8W(0805)	R0805	?	
+2	4.7k	SMD-RES-4.7K-5%-1/8W(0805)	R0805	vorhanden	
+1	ULN2004AD	ULN2004AD	SO16	http://www.reichelt.de/ULN-2004-AD-SMD/3/index.html?&ACTION=3&LA=446&ARTICLE=18888&artnr=ULN+2004+AD+SMD&SEARCH=ULN2004AD	
+1	317TO202H_NOHOLE	317TO202H_NOHOLE	TO220H_NOHOLE	http://www.reichelt.de/LM-317-220-SG/3/index.html?&ACTION=3&LA=446&ARTICLE=120703&artnr=LM+317-220+SG&SEARCH=317	
+1	4028D	4028D	SO16	https://www.reichelt.de/LM-2904-D/3/index.html?&ACTION=3&LA=446&ARTICLE=109387&artnr=LM+2904+D&SEARCH=lm2904	
+2	BCP53T1	BCP53T1	SOT223	"https://secure.reichelt.de/index.html?ACTION=3;ARTICLE=41323;SEARCH=BCP%2053-16%20SMD"	
+9	1N4007	DIODE-GEN-PURPOSE-1KV-1A(DO-214AC)	DO-214AC	http://www.reichelt.de/SB-SKE-4F-Dioden/S-1G-SMD/3/index.html?&ACTION=3&LA=2&ARTICLE=95354&GROUPID=2991&artnr=S+1G+SMD	
+1	LM339D	LM339D	SO14	http://www.reichelt.de/LM-339-D-SMD/3/index.html?&ACTION=3&LA=446&ARTICLE=18714&artnr=LM+339+D+SMD&SEARCH=LM339D	
+1	6V	pos	78LXX	http://www.reichelt.de/-A-78L06/3/index.html?&ACTION=3&LA=446&ARTICLE=23471&artnr=%C2%B5A+78L06&SEARCH=78L06	
+1				http://www.reichelt.de/SP-2000-SW/3/index.html?&ACTION=3&LA=446&ARTICLE=33824&artnr=SP+2000+SW&SEARCH=SP+2000+SW	

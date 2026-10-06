@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid altunit="inch" altunitdist="inch" altdistance="0.025" display="yes" multiple="1" style="lines" unit="inch" unitdist="inch" distance="0.05"/>
+<layers>
+<layer active="yes" visible="yes" fill="1" color="4" name="Top" number="1"/>
+<layer active="yes" visible="no" fill="3" color="1" name="Route2" number="2"/>
+<layer active="yes" visible="no" fill="3" color="4" name="Route3" number="3"/>
+<layer active="yes" visible="no" fill="4" color="1" name="Route4" number="4"/>
+<layer active="yes" visible="no" fill="4" color="4" name="Route5" number="5"/>
+<layer active="yes" visible="no" fill="8" color="1" name="Route6" number="6"/>
+<layer active="yes" visible="no" fill="8" color="4" name="Route7" number="7"/>
+<layer active="yes" visible="no" fill="2" color="1" name="Route8" number="8"/>
+<layer active="yes" visible="no" fill="2" color="4" name="Route9" number="9"/>
+<layer active="yes" visible="no" fill="7" color="1" name="Route10" number="10"/>
+<layer active="yes" visible="no" fill="7" color="4" name="Route11" number="11"/>
+<layer active="yes" visible="no" fill="5" color="1" name="Route12" number="12"/>
+<layer active="yes" visible="no" fill="5" color="4" name="Route13" number="13"/>
+<layer active="yes" visible="no" fill="6" color="1" name="Route14" number="14"/>
+<layer active="yes" visible="no" fill="6" color="4" name="Route15" number="15"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Bottom" number="16"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pads" number="17"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Vias" number="18"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Unrouted" number="19"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="Dimension" number="20"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tPlace" number="21"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bPlace" number="22"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="tOrigins" number="23"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="bOrigins" number="24"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tNames" number="25"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bNames" number="26"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tValues" number="27"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bValues" number="28"/>
+<layer active="yes" visible="no" fill="3" color="7" name="tStop" number="29"/>
+<layer active="yes" visible="no" fill="6" color="7" name="bStop" number="30"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tCream" number="31"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bCream" number="32"/>
+<layer active="yes" visible="no" fill="3" color="6" name="tFinish" number="33"/>
+<layer active="yes" visible="no" fill="6" color="6" name="bFinish" number="34"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tGlue" number="35"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bGlue" number="36"/>
+<layer active="yes" visible="no" fill="1" color="7" name="tTest" number="37"/>
+<layer active="yes" visible="no" fill="1" color="7" name="bTest" number="38"/>
+<layer active="yes" visible="yes" fill="11" color="4" name="tKeepout" number="39"/>
+<layer active="yes" visible="yes" fill="11" color="1" name="bKeepout" number="40"/>
+<layer active="yes" visible="yes" fill="10" color="4" name="tRestrict" number="41"/>
+<layer active="yes" visible="yes" fill="10" color="1" name="bRestrict" number="42"/>
+<layer active="yes" visible="yes" fill="10" color="2" name="vRestrict" number="43"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Drills" number="44"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Holes" number="45"/>
+<layer active="yes" visible="no" fill="1" color="3" name="Milling" number="46"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Measures" number="47"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Document" number="48"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Reference" number="49"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tDocu" number="51"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bDocu" number="52"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Nets" number="91"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Busses" number="92"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pins" number="93"/>
+<layer active="yes" visible="yes" fill="1" color="4" name="Symbols" number="94"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Names" number="95"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Values" number="96"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Info" number="97"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Guide" number="98"/>
+</layers>
+<library>
+<description>
+</description>
+<packages>
+<package name="ZM1020">
+<description>
+</description>
+<circle layer="51" width="0.127" radius="15" y="0" x="0"/>
+<pad drill="1.2" y="-8.325" x="0" name="1"/>
+<pad drill="1.2" y="-5.19" x="-6.51" name="13"/>
+<pad drill="1.2" y="-1.85" x="-8.12" name="12"/>
+<pad drill="1.2" y="1.85" x="-8.12" name="11"/>
+<pad drill="1.2" y="5.19" x="-6.51" name="10"/>
+<pad drill="1.2" y="7.5" x="-3.61" name="9"/>
+<pad drill="1.2" y="8.325" x="0" name="8"/>
+<pad drill="1.2" y="7.5" x="3.61" name="7"/>
+<pad drill="1.2" y="5.19" x="6.51" name="6"/>
+<pad drill="1.2" y="1.85" x="8.12" name="5"/>
+<pad drill="1.2" y="-1.85" x="8.12" name="4"/>
+<pad drill="1.2" y="-5.19" x="6.51" name="3"/>
+<pad drill="1.2" y="-7.5" x="3.61" name="2"/>
+<hole drill="4.5" y="0" x="0"/>
+<text layer="25" size="1.27" y="-15" x="-15">
+</text>
+<text layer="27" size="1.27" y="-17" x="-15">
+</text>
+<circle layer="51" width="0.127" radius="13.5" y="0" x="0"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ZM1020">
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="-10.16" name="9"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="-7.62" name="8"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="-5.08" name="7"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="-2.54" name="6"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="0" name="5"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="2.54" name="4"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="5.08" name="3"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="7.62" name="2"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="10.16" name="1"/>
+<pin rot="R90" length="middle" visible="off" y="-7.62" x="12.7" name="0"/>
+<pin length="middle" visible="off" y="0" x="-17.78" name="NC1"/>
+<pin rot="R180" length="middle" visible="off" y="0" x="20.32" name="NC2"/>
+<pin rot="R270" length="middle" visible="off" y="7.62" x="0" name="A"/>
+<wire curve="-90" layer="94" width="0.254" y2="0" x2="-15.24" y1="-5.08" x1="-10.16"/>
+<wire curve="-90" layer="94" width="0.254" y2="5.08" x2="-10.16" y1="0" x1="-15.24"/>
+<wire curve="-90" layer="94" width="0.254" y2="0" x2="17.78" y1="5.08" x1="12.7"/>
+<wire curve="-90" layer="94" width="0.254" y2="-5.08" x2="12.7" y1="0" x1="17.78"/>
+<wire layer="94" width="0.254" y2="-5.08" x2="12.7" y1="-5.08" x1="-10.16"/>
+<wire layer="94" width="0.254" y2="5.08" x2="12.7" y1="5.08" x1="-10.16"/>
+<circle layer="94" width="0.254" radius="0.635" y="0" x="-12.065"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="-10.16"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="-7.62"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="-5.08"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="-2.54"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="0"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="2.54"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="5.08"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="7.62"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="10.16"/>
+<circle layer="94" width="0.254" radius="0.635" y="-1.905" x="12.7"/>
+<circle layer="94" width="0.254" radius="0.635" y="0" x="14.605"/>
+<wire layer="94" width="1.016" y2="2.54" x2="12.7" y1="2.54" x1="-10.16"/>
+<text align="center" layer="94" size="1.27" y="0" x="12.7">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="10.16">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="7.62">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="5.08">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="2.54">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="0">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="-2.54">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="-5.08">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="-7.62">
+</text>
+<text align="center" layer="94" size="1.27" y="0" x="-10.16">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="12.446">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="9.906">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="7.366">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="4.826">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="2.286">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="-0.254">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="-2.794">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="-5.334">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="-7.874">
+</text>
+<text align="bottom-center" layer="95" size="1.778" y="0.254" x="19.558">
+</text>
+<text align="bottom-center" layer="95" size="1.778" y="0.254" x="-17.018">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="6.35" x="-0.254">
+</text>
+<text align="bottom-center" rot="R90" layer="95" size="1.778" y="-6.35" x="-10.414">
+</text>
+<text layer="95" size="1.778" y="-5.08" x="17.78">
+</text>
+<text layer="96" size="1.778" y="-7.62" x="17.78">
+</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ZM1020">
+<gates>
+<gate y="0" x="0" symbol="ZM1020" name="G$1"/>
+</gates>
+<devices>
+<device package="ZM1020" name="">
+<connects>
+<connect pad="3" pin="0" gate="G$1"/>
+<connect pad="13" pin="1" gate="G$1"/>
+<connect pad="12" pin="2" gate="G$1"/>
+<connect pad="11" pin="3" gate="G$1"/>
+<connect pad="10" pin="4" gate="G$1"/>
+<connect pad="9" pin="5" gate="G$1"/>
+<connect pad="7" pin="6" gate="G$1"/>
+<connect pad="6" pin="7" gate="G$1"/>
+<connect pad="5" pin="8" gate="G$1"/>
+<connect pad="4" pin="9" gate="G$1"/>
+<connect pad="2" pin="A" gate="G$1"/>
+<connect pad="1" pin="NC1" gate="G$1"/>
+<connect pad="8" pin="NC2" gate="G$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

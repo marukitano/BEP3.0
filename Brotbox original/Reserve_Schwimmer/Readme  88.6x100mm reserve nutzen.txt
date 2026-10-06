@@ -1,0 +1,2 @@
+Das Layout Reserve_nutzen wurde von Seeedstudio nicht akzptiert (Sept 2017) mit der Argumentation, dass mehrere Designs auf der Platine seien und diese durch löcher getrennt sind. Jedes Design würde dann extra kosten. Deswegen sind die Löcher entfernt in Reserve_nutzen_noholes.
+Seeed macht keinen Unterschied zwischen Fräsung und Brechen, es kommt nur auf die Anzahl Designs drauf an. Deshalb werde ich in Zukunft nur 1 Design oder max 2 auf einen Print tun und diese bei komplizierten Aussengeometrien fräsen lassen.

@@ -1,0 +1,42 @@
+[Eagle]
+Version="06 04 00"
+Platform="Windows"
+Serial="611C14EA7C-LS-WLM30CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/ARDUINO.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/Bruker_FHL.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/L-US_edited_PHG.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/STD17NF03L.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/con-lemo_edited_phg.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/con-subd.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/led_edited_phg.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/optosonde_bruker.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/rcl_edited_phg.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/subd_Erni_editedPHG.lbr"
+UsedLibrary="W:/BSFS/BSDB/Projektablagen/ZKSR821/Eagle/eagle directory/lbr/wirepad_editedPHG.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/40xx.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/BCP53_.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/BMW_testpins.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/con WAGO BMW.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/con_BMW.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/diode.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/linear.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/linear_BMW.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/rcl.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/switch_BMWtestboard.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/testpin_BMW.lbr"
+UsedLibrary="C:/Users/phg/Desktop/Bauteile BMW/BMW main/eagle_libraries/transistor.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="356 163 1572 1057"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"

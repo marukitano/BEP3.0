@@ -1,0 +1,120 @@
+Partlist
+
+Exported from BMW_testboard.sch at 27.07.2015 17:11:16
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part            Value          Device                   Package      Library             Sheet
+
+öLDRUCK_SW2     TLLY4400       TLLY4400                 LED3MM       led                 1
+12V             TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+12V_            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+ABS_BLINK       TLLY4400       TLLY4400                 LED3MM       led                 1
+BEIDE           TLLY4400       TLLY4400                 LED3MM       led                 1
+BL              TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+BL-GR           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+BL-RT           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+BL-SW           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+BR              TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+BR-GR           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+BR-SW           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+BR_             TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+C1              10u            C-EU025-024X044          C025-024X044 rcl                 1
+C2              10u            C-EU025-024X044          C025-024X044 rcl                 1
+C3              10n            C-EU025-024X044          C025-024X044 rcl                 1
+CHOKE_SW1       TLLY4400       TLLY4400                 LED3MM       led                 1
+DAUERPLUS       TLLY4400       TLLY4400                 LED3MM       led                 1
+FERNLICHT_BLK   TLLY4400       TLLY4400                 LED3MM       led                 1
+GANG_1          TLLY4400       TLLY4400                 LED3MM       led                 1
+GANG_2          TLLY4400       TLLY4400                 LED3MM       led                 1
+GANG_3          TLLY4400       TLLY4400                 LED3MM       led                 1
+GANG_4          TLLY4400       TLLY4400                 LED3MM       led                 1
+GANG_5          TLLY4400       TLLY4400                 LED3MM       led                 1
+GB-SW           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+GB-WS           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+GE-BL           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+GESCHW_WAGO_BLK TLLY4400       TLLY4400                 LED3MM       led                 1
+GND_            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+GR              TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+GR-SW           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+IC1             4020N          4020N                    DIL16        40xx                1
+IC2             NE555          NE555                    DIL-08       st-microelectronics 1
+IC5             BTS141         BTS141                   TO220-3-45   optosonde_bruker    1
+LADEKONTROL_BLK TLLY4400       TLLY4400                 LED3MM       led                 1
+LAMPENTEST_SW4  TLLY4400       TLLY4400                 LED3MM       led                 1
+LINKS           TLLY4400       TLLY4400                 LED3MM       led                 1
+NEUTRAL         TLLY4400       TLLY4400                 LED3MM       led                 1
+R1              390            R-EU_R0805               R0805        rcl                 1
+R2              390            R-EU_R0805               R0805        rcl                 1
+R3              390            R-EU_R0805               R0805        rcl                 1
+R4              390            R-EU_R0805               R0805        rcl                 1
+R5              390            R-EU_R0805               R0805        rcl                 1
+R6              390            R-EU_R0805               R0805        rcl                 1
+R7              390            R-EU_R0805               R0805        rcl                 1
+R8              10k            R-EU_R0805               R0805        rcl                 1
+R9              10k            R-EU_R0805               R0805        rcl                 1
+R10             10k            R-EU_R0805               R0805        rcl                 1
+R11             390            R-EU_R0805               R0805        rcl                 1
+R12             10k            R-EU_R0805               R0805        rcl                 1
+R13             10k            R-EU_0207/12             0207/12      rcl                 1
+R14             20k            R-EU_0207/12             0207/12      rcl                 1
+R15             390            R-EU_R0805               R0805        rcl                 1
+R16             390            R-EU_R0805               R0805        rcl                 1
+R17             10k            R-EU_R0805               R0805        rcl                 1
+R18             390            R-EU_R0805               R0805        rcl                 1
+R19             390            R-EU_R0805               R0805        rcl                 1
+R20             390            R-EU_R0805               R0805        rcl                 1
+R21             39             R-EU_0207/12             0207/12      rcl                 1
+R22             100            R-EU_0207/12             0207/12      rcl                 1
+R23             10k            R-EU_R0805               R0805        rcl                 1
+R27             0              R-EU_0207/12             0207/12      rcl                 1
+R28             390            R-EU_R0805               R0805        rcl                 1
+R29             390            R-EU_R0805               R0805        rcl                 1
+R30             390            R-EU_R0805               R0805        rcl                 1
+R31             390            R-EU_R0805               R0805        rcl                 1
+R32             10k            R-EU_0207/12             0207/12      rcl                 1
+R33             10k            R-EU_0207/15             0207/15      rcl                 1
+RECHT           TLLY4400       TLLY4400                 LED3MM       led                 1
+S1              DTE6K          DTE6K                    DTE6K        switch              1
+S2              DTE6K          DTE6K                    DTE6K        switch              1
+S3              DTE6K          DTE6K                    DTE6K        switch              1
+S4              DTE6K          DTE6K                    DTE6K        switch              1
+START/NEUTRAL   TLLY4400       TLLY4400                 LED3MM       led                 1
+SW-GR           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+T1                             MMBTA42LT1-NPN-SOT23-BEC SOT23-BEC    transistor          1
+T2                             MMBTA42LT1-NPN-SOT23-BEC SOT23-BEC    transistor          1
+T3                             MMBTA42LT1-NPN-SOT23-BEC SOT23-BEC    transistor          1
+TACHSIG_REL_BLK TLLY4400       TLLY4400                 LED3MM       led                 1
+TANKGEB_SW1-4   TLLY4400       TLLY4400                 LED3MM       led                 1
+TEMP...SW3      TLLY4400       TLLY4400                 LED3MM       led                 1
+TP12            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP13            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP14            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP15            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP20            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP27            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP28            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP29            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP31            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP32            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP33            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP34            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP35            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP36            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP37            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP38            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP39            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP40            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP41            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP42            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP43            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+TP44            TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+VI-SW           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+VI-WS           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+WARNLAMPE_SW4   TLLY4400       TLLY4400                 LED3MM       led                 1
+WS              TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+WS-BL           TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+WS_             TPSPAD1-1.5MM  TPSPAD1-1.5MM            P1-13        testpin_BMW         1
+ZüNDUNGSPLUS    TLLY4400       TLLY4400                 LED3MM       led                 1

@@ -1,0 +1,20 @@
+[Eagle]
+Version="06 04 00"
+Platform="Windows"
+Serial="611C14EA7C-LS-WLM30CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="f:/Bauteile BMW/BMW main/testpin_BMW.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="52 138 1193 994"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"

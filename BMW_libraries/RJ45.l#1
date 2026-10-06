@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid altunit="inch" altunitdist="inch" altdistance="0.01" display="no" multiple="1" style="lines" unit="inch" unitdist="inch" distance="0.1"/>
+<layers>
+<layer active="yes" visible="yes" fill="1" color="4" name="Top" number="1"/>
+<layer active="yes" visible="yes" fill="3" color="1" name="Route2" number="2"/>
+<layer active="yes" visible="yes" fill="3" color="4" name="Route3" number="3"/>
+<layer active="yes" visible="yes" fill="6" color="1" name="Route14" number="14"/>
+<layer active="yes" visible="yes" fill="6" color="4" name="Route15" number="15"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Bottom" number="16"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pads" number="17"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Vias" number="18"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Unrouted" number="19"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="Dimension" number="20"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tPlace" number="21"/>
+<layer active="yes" visible="yes" fill="1" color="3" name="bPlace" number="22"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="tOrigins" number="23"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="bOrigins" number="24"/>
+<layer active="yes" visible="yes" fill="1" color="14" name="tNames" number="25"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bNames" number="26"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tValues" number="27"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bValues" number="28"/>
+<layer active="yes" visible="yes" fill="3" color="7" name="tStop" number="29"/>
+<layer active="yes" visible="yes" fill="6" color="7" name="bStop" number="30"/>
+<layer active="yes" visible="yes" fill="4" color="7" name="tCream" number="31"/>
+<layer active="yes" visible="yes" fill="5" color="7" name="bCream" number="32"/>
+<layer active="yes" visible="yes" fill="3" color="6" name="tFinish" number="33"/>
+<layer active="yes" visible="yes" fill="6" color="6" name="bFinish" number="34"/>
+<layer active="yes" visible="yes" fill="4" color="7" name="tGlue" number="35"/>
+<layer active="yes" visible="yes" fill="5" color="7" name="bGlue" number="36"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tTest" number="37"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bTest" number="38"/>
+<layer active="yes" visible="yes" fill="11" color="4" name="tKeepout" number="39"/>
+<layer active="yes" visible="yes" fill="11" color="1" name="bKeepout" number="40"/>
+<layer active="yes" visible="yes" fill="10" color="4" name="tRestrict" number="41"/>
+<layer active="yes" visible="yes" fill="10" color="1" name="bRestrict" number="42"/>
+<layer active="yes" visible="yes" fill="10" color="2" name="vRestrict" number="43"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Drills" number="44"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Holes" number="45"/>
+<layer active="yes" visible="yes" fill="1" color="3" name="Milling" number="46"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Measures" number="47"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Document" number="48"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Reference" number="49"/>
+<layer active="no" visible="no" fill="1" color="7" name="dxf" number="50"/>
+<layer active="yes" visible="yes" fill="1" color="11" name="tDocu" number="51"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bDocu" number="52"/>
+<layer active="no" visible="no" fill="9" color="7" name="tGND_GNDA" number="53"/>
+<layer active="no" visible="no" fill="9" color="1" name="bGND_GNDA" number="54"/>
+<layer active="no" visible="no" fill="1" color="7" name="wert" number="56"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Nets" number="91"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Busses" number="92"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pins" number="93"/>
+<layer active="yes" visible="yes" fill="1" color="4" name="Symbols" number="94"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Names" number="95"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Values" number="96"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Info" number="97"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Guide" number="98"/>
+<layer active="yes" visible="yes" fill="1" color="5" name="SpiceOrder" number="99"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Enclosure" number="103"/>
+<layer active="yes" visible="yes" fill="1" color="3" name="Fittings" number="105"/>
+<layer active="yes" visible="yes" fill="1" color="5" name="Function" number="106"/>
+<layer active="yes" visible="yes" fill="1" color="4" name="Pin" number="107"/>
+<layer active="yes" visible="yes" fill="1" color="16" name="MountingGrid" number="108"/>
+<layer active="yes" visible="yes" fill="1" color="20" name="StencilDocu" number="109"/>
+</layers>
+<library>
+<description>
+</description>
+<packages>
+<package name="RJ45-SE">
+<description>
+</description>
+<pad rot="R180" shape="square" drill="0.9" y="6.604" x="-4.445" name="1"/>
+<pad rot="R180" shape="octagon" drill="0.9" y="9.144" x="-3.175" name="2"/>
+<pad rot="R180" shape="octagon" drill="0.9" y="6.604" x="-1.905" name="3"/>
+<pad rot="R180" shape="octagon" drill="0.9" y="9.144" x="-0.635" name="4"/>
+<pad rot="R180" shape="octagon" drill="0.9" y="6.604" x="0.635" name="5"/>
+<pad rot="R180" shape="octagon" drill="0.9" y="9.144" x="1.905" name="6"/>
+<pad rot="R180" shape="octagon" drill="0.9" y="6.604" x="3.175" name="7"/>
+<pad rot="R180" shape="octagon" drill="0.9" y="9.144" x="4.445" name="8"/>
+<pad rot="R180" drill="0.9" y="9.144" x="-5.715" name="NC1"/>
+<pad rot="R180" drill="0.9" y="6.604" x="5.715" name="NC2"/>
+<hole drill="3.2512" y="0.254" x="5.715"/>
+<hole drill="3.2512" y="0.254" x="-5.715"/>
+<text rot="R90" font="vector" layer="25" size="1.27" y="-7.62" x="-8.255">
+</text>
+<text font="vector" layer="27" size="1.27" y="10.795" x="-7.9375">
+</text>
+<text font="vector" layer="51" size="0.6096" y="-9.525" x="-2.8575">
+</text>
+<polygon layer="51" width="0.0635">
+<vertex y="-8.7122" x="-3.6195"/>
+<vertex y="-9.7282" x="-3.6195"/>
+<vertex y="-9.3472" x="-3.8735"/>
+<vertex y="-9.3472" x="-3.3655"/>
+<vertex y="-9.7282" x="-3.6195"/>
+</polygon>
+<circle layer="22" width="0.127" radius="0.254" y="6.604" x="-5.9055"/>
+<wire layer="51" width="0.127" y2="-10.16" x2="7.9375" y1="-10.16" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="10.4775" x2="-7.9375" y1="-7.62" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="10.4775" x2="7.9375" y1="10.4775" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="-7.62" x2="7.9375" y1="10.4775" x1="7.9375"/>
+<wire layer="51" width="0.127" y2="-7.62" x2="-7.9375" y1="-10.16" x1="-7.9375"/>
+<wire layer="51" width="0.127" y2="-7.62" x2="7.9375" y1="-10.16" x1="7.9375"/>
+<polygon layer="51" width="0.0635">
+<vertex y="-8.7122" x="4.0005"/>
+<vertex y="-9.7282" x="4.0005"/>
+<vertex y="-9.3472" x="3.7465"/>
+<vertex y="-9.3472" x="4.2545"/>
+<vertex y="-9.7282" x="4.0005"/>
+</polygon>
+</package>
+<package name="RJ45-TE">
+<description>
+</description>
+<pad shape="square" drill="0.9144" y="6.35" x="-4.445" name="1"/>
+<pad shape="octagon" drill="0.9144" y="8.89" x="-3.175" name="2"/>
+<pad shape="octagon" drill="0.9144" y="6.35" x="-1.905" name="3"/>
+<pad shape="octagon" drill="0.9144" y="8.89" x="-0.635" name="4"/>
+<pad shape="octagon" drill="0.9144" y="6.35" x="0.635" name="5"/>
+<pad shape="octagon" drill="0.9144" y="8.89" x="1.905" name="6"/>
+<pad shape="octagon" drill="0.9144" y="6.35" x="3.175" name="7"/>
+<pad shape="octagon" drill="0.9144" y="8.89" x="4.445" name="8"/>
+<pad drill="0.9144" y="8.89" x="-5.715" name="NC1"/>
+<pad drill="0.9144" y="6.35" x="5.715" name="NC2"/>
+<hole drill="3.2512" y="0" x="5.715"/>
+<hole drill="3.2512" y="0" x="-5.715"/>
+<text rot="R90" font="vector" layer="25" size="1.27" y="-3.9497" x="-9.525">
+</text>
+<text font="vector" layer="27" size="1.27" y="10.668" x="-7.9375">
+</text>
+<circle layer="22" width="0.127" radius="0.254" y="6.35" x="-5.9055"/>
+<wire layer="21" width="0.127" y2="-6.8707" x2="7.9375" y1="-6.8707" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="-3.9497" x2="7.9375" y1="-6.8707" x1="7.9375"/>
+<wire layer="21" width="0.127" y2="6.8453" x2="7.9375" y1="-3.9497" x1="7.9375"/>
+<wire layer="21" width="0.127" y2="9.7663" x2="7.9375" y1="6.8453" x1="7.9375"/>
+<wire layer="21" width="0.127" y2="9.7663" x2="-7.9375" y1="9.7663" x1="7.9375"/>
+<wire layer="21" width="0.127" y2="6.8453" x2="-7.9375" y1="9.7663" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="-3.9497" x2="-7.9375" y1="6.8453" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="-6.8707" x2="-7.9375" y1="-3.9497" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="6.8453" x2="-9.017" y1="6.8453" x1="-7.9375"/>
+<wire layer="21" width="0.127" y2="-3.9497" x2="-9.017" y1="6.8453" x1="-9.017"/>
+<wire layer="21" width="0.127" y2="-3.9497" x2="-7.9375" y1="-3.9497" x1="-9.017"/>
+<wire layer="21" width="0.127" y2="6.8453" x2="9.017" y1="6.8453" x1="7.9375"/>
+<wire layer="21" width="0.127" y2="-3.9497" x2="9.017" y1="6.8453" x1="9.017"/>
+<wire layer="21" width="0.127" y2="-3.9497" x2="7.9375" y1="-3.9497" x1="9.017"/>
+<wire layer="51" width="0.127" y2="5.08" x2="6.35" y1="5.08" x1="-6.35"/>
+<wire layer="51" width="0.127" y2="-3.81" x2="6.35" y1="5.08" x1="6.35"/>
+<wire layer="51" width="0.127" y2="-3.81" x2="3.81" y1="-3.81" x1="6.35"/>
+<wire layer="51" width="0.127" y2="-5.08" x2="3.81" y1="-3.81" x1="3.81"/>
+<wire layer="51" width="0.127" y2="-5.08" x2="2.54" y1="-5.08" x1="3.81"/>
+<wire layer="51" width="0.127" y2="-6.35" x2="2.54" y1="-5.08" x1="2.54"/>
+<wire layer="51" width="0.127" y2="-6.35" x2="-2.54" y1="-6.35" x1="2.54"/>
+<wire layer="51" width="0.127" y2="-5.08" x2="-2.54" y1="-6.35" x1="-2.54"/>
+<wire layer="51" width="0.127" y2="-5.08" x2="-3.81" y1="-5.08" x1="-2.54"/>
+<wire layer="51" width="0.127" y2="-3.81" x2="-3.81" y1="-5.08" x1="-3.81"/>
+<wire layer="51" width="0.127" y2="-3.81" x2="-6.35" y1="-3.81" x1="-3.81"/>
+<wire layer="51" width="0.127" y2="5.08" x2="-6.35" y1="-3.81" x1="-6.35"/>
+<text font="vector" layer="51" size="0.8128" y="0" x="-2.794">
+</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RJ45">
+<wire layer="94" width="0.254" y2="8.89" x2="-12.7" y1="-10.16" x1="-12.7"/>
+<wire layer="94" width="0.254" y2="-10.16" x2="15.24" y1="8.89" x1="15.24"/>
+<wire layer="94" width="0.254" y2="-10.16" x2="-12.7" y1="-10.16" x1="15.24"/>
+<wire layer="94" width="0.254" y2="6.35" x2="-10.16" y1="-5.08" x1="-10.16"/>
+<wire layer="94" width="0.254" y2="6.35" x2="12.7" y1="6.35" x1="-10.16"/>
+<wire layer="94" width="0.254" y2="-5.08" x2="12.7" y1="6.35" x1="12.7"/>
+<wire layer="94" width="0.254" y2="-8.89" x2="-2.54" y1="-8.89" x1="5.08"/>
+<pin rot="R270" visible="pad" y="12.7" x="-7.62" name="1"/>
+<pin rot="R270" visible="pad" y="12.7" x="-5.08" name="2"/>
+<pin rot="R270" visible="pad" y="12.7" x="-2.54" name="3"/>
+<pin rot="R270" visible="pad" y="12.7" x="0" name="4"/>
+<pin rot="R270" visible="pad" y="12.7" x="2.54" name="5"/>
+<pin rot="R270" visible="pad" y="12.7" x="5.08" name="6"/>
+<pin rot="R270" visible="pad" y="12.7" x="7.62" name="7"/>
+<pin rot="R270" visible="pad" y="12.7" x="10.16" name="8"/>
+<text layer="95" size="1.778" y="-12.7" x="-12.7">
+</text>
+<text layer="96" size="1.778" y="-12.7" x="2.54">
+</text>
+<wire layer="94" width="0.254" y2="8.89" x2="15.24" y1="8.89" x1="-12.7"/>
+<wire layer="94" width="0.254" y2="-7.62" x2="-2.54" y1="-8.89" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-7.62" x2="-3.81" y1="-7.62" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-5.08" x2="-3.81" y1="-7.62" x1="-3.81"/>
+<wire layer="94" width="0.254" y2="-5.08" x2="-10.16" y1="-5.08" x1="-3.81"/>
+<wire layer="94" width="0.254" y2="-7.62" x2="5.08" y1="-8.89" x1="5.08"/>
+<wire layer="94" width="0.254" y2="-7.62" x2="6.35" y1="-7.62" x1="5.08"/>
+<wire layer="94" width="0.254" y2="-5.08" x2="6.35" y1="-7.62" x1="6.35"/>
+<wire layer="94" width="0.254" y2="-5.08" x2="12.7" y1="-5.08" x1="6.35"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset uservalue="yes" prefix="J" name="RJ45">
+<description>
+</description>
+<gates>
+<gate y="0" x="0" symbol="RJ45" name="G$1"/>
+</gates>
+<devices>
+<device package="RJ45-SE" name="-SE">
+<connects>
+<connect pad="1" pin="1" gate="G$1"/>
+<connect pad="2" pin="2" gate="G$1"/>
+<connect pad="3" pin="3" gate="G$1"/>
+<connect pad="4" pin="4" gate="G$1"/>
+<connect pad="5" pin="5" gate="G$1"/>
+<connect pad="6" pin="6" gate="G$1"/>
+<connect pad="7" pin="7" gate="G$1"/>
+<connect pad="8" pin="8" gate="G$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device package="RJ45-TE" name="-TE">
+<connects>
+<connect pad="1" pin="1" gate="G$1"/>
+<connect pad="2" pin="2" gate="G$1"/>
+<connect pad="3" pin="3" gate="G$1"/>
+<connect pad="4" pin="4" gate="G$1"/>
+<connect pad="5" pin="5" gate="G$1"/>
+<connect pad="6" pin="6" gate="G$1"/>
+<connect pad="7" pin="7" gate="G$1"/>
+<connect pad="8" pin="8" gate="G$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

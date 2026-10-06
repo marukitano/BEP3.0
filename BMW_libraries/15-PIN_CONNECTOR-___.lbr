@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid altunit="inch" altunitdist="inch" altdistance="0.01" display="no" multiple="1" style="lines" unit="inch" unitdist="inch" distance="0.1"/>
+<layers>
+<layer active="yes" visible="yes" fill="1" color="4" name="Top" number="1"/>
+<layer active="yes" visible="no" fill="3" color="1" name="Route2" number="2"/>
+<layer active="yes" visible="no" fill="3" color="4" name="Route3" number="3"/>
+<layer active="yes" visible="no" fill="6" color="1" name="Route14" number="14"/>
+<layer active="yes" visible="no" fill="6" color="4" name="Route15" number="15"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Bottom" number="16"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pads" number="17"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Vias" number="18"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Unrouted" number="19"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="Dimension" number="20"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tPlace" number="21"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bPlace" number="22"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="tOrigins" number="23"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="bOrigins" number="24"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tNames" number="25"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bNames" number="26"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tValues" number="27"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bValues" number="28"/>
+<layer active="yes" visible="no" fill="3" color="7" name="tStop" number="29"/>
+<layer active="yes" visible="no" fill="6" color="7" name="bStop" number="30"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tCream" number="31"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bCream" number="32"/>
+<layer active="yes" visible="no" fill="3" color="6" name="tFinish" number="33"/>
+<layer active="yes" visible="no" fill="6" color="6" name="bFinish" number="34"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tGlue" number="35"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bGlue" number="36"/>
+<layer active="yes" visible="no" fill="1" color="7" name="tTest" number="37"/>
+<layer active="yes" visible="no" fill="1" color="7" name="bTest" number="38"/>
+<layer active="yes" visible="yes" fill="11" color="4" name="tKeepout" number="39"/>
+<layer active="yes" visible="yes" fill="11" color="1" name="bKeepout" number="40"/>
+<layer active="yes" visible="yes" fill="10" color="4" name="tRestrict" number="41"/>
+<layer active="yes" visible="yes" fill="10" color="1" name="bRestrict" number="42"/>
+<layer active="yes" visible="yes" fill="10" color="2" name="vRestrict" number="43"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Drills" number="44"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Holes" number="45"/>
+<layer active="yes" visible="no" fill="1" color="3" name="Milling" number="46"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Measures" number="47"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Document" number="48"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Reference" number="49"/>
+<layer active="no" visible="no" fill="1" color="7" name="dxf" number="50"/>
+<layer active="yes" visible="yes" fill="1" color="14" name="tDocu" number="51"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bDocu" number="52"/>
+<layer active="no" visible="no" fill="9" color="7" name="tGND_GNDA" number="53"/>
+<layer active="no" visible="no" fill="9" color="1" name="bGND_GNDA" number="54"/>
+<layer active="no" visible="no" fill="1" color="7" name="wert" number="56"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Nets" number="91"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Busses" number="92"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pins" number="93"/>
+<layer active="yes" visible="yes" fill="1" color="4" name="Symbols" number="94"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Names" number="95"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Values" number="96"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Info" number="97"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Guide" number="98"/>
+<layer active="no" visible="no" fill="1" color="7" name="Muster" number="100"/>
+<layer active="yes" visible="yes" fill="4" color="12" name="Patch_Top" number="101"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Vscore" number="102"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tMap" number="103"/>
+<layer active="yes" visible="yes" fill="1" color="16" name="Name" number="104"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tPlate" number="105"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bPlate" number="106"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Crop" number="107"/>
+<layer active="yes" visible="yes" fill="1" color="10" name="tplace-old" number="108"/>
+<layer active="yes" visible="yes" fill="1" color="11" name="ref-old" number="109"/>
+<layer active="yes" visible="yes" fill="4" color="9" name="Patch_BOT" number="116"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="_tsilk" number="121"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="_bsilk" number="122"/>
+<layer active="yes" visible="no" fill="1" color="7" name="_tNames" number="125"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Drill_legend" number="144"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="HeatSink" number="151"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Contour" number="199"/>
+<layer active="yes" visible="yes" fill="10" color="1" name="200bmp" number="200"/>
+<layer active="yes" visible="yes" fill="10" color="2" name="201bmp" number="201"/>
+<layer active="yes" visible="yes" fill="10" color="3" name="202bmp" number="202"/>
+<layer active="yes" visible="yes" fill="10" color="4" name="203bmp" number="203"/>
+<layer active="yes" visible="yes" fill="10" color="5" name="204bmp" number="204"/>
+<layer active="yes" visible="yes" fill="10" color="6" name="205bmp" number="205"/>
+<layer active="yes" visible="yes" fill="10" color="7" name="206bmp" number="206"/>
+<layer active="yes" visible="yes" fill="10" color="8" name="207bmp" number="207"/>
+<layer active="yes" visible="yes" fill="10" color="9" name="208bmp" number="208"/>
+<layer active="yes" visible="no" fill="1" color="7" name="209bmp" number="209"/>
+<layer active="yes" visible="no" fill="1" color="7" name="210bmp" number="210"/>
+<layer active="yes" visible="no" fill="1" color="7" name="211bmp" number="211"/>
+<layer active="yes" visible="no" fill="1" color="7" name="212bmp" number="212"/>
+<layer active="yes" visible="no" fill="1" color="7" name="213bmp" number="213"/>
+<layer active="yes" visible="no" fill="1" color="7" name="214bmp" number="214"/>
+<layer active="yes" visible="no" fill="1" color="7" name="215bmp" number="215"/>
+<layer active="yes" visible="no" fill="1" color="7" name="216bmp" number="216"/>
+<layer active="no" visible="no" fill="1" color="18" name="217bmp" number="217"/>
+<layer active="no" visible="no" fill="1" color="19" name="218bmp" number="218"/>
+<layer active="no" visible="no" fill="1" color="20" name="219bmp" number="219"/>
+<layer active="no" visible="no" fill="1" color="21" name="220bmp" number="220"/>
+<layer active="no" visible="no" fill="1" color="22" name="221bmp" number="221"/>
+<layer active="no" visible="no" fill="1" color="23" name="222bmp" number="222"/>
+<layer active="no" visible="no" fill="1" color="24" name="223bmp" number="223"/>
+<layer active="no" visible="no" fill="1" color="25" name="224bmp" number="224"/>
+<layer active="no" visible="no" fill="1" color="3" name="Descript" number="250"/>
+<layer active="no" visible="no" fill="11" color="12" name="SMDround" number="251"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="cooling" number="254"/>
+</layers>
+<library>
+<description>
+</description>
+<packages>
+<package name="1734530-1">
+<description>
+</description>
+<pad drill="3.2" y="0" x="-12.5" name="SHIELD-1"/>
+<pad drill="3.2" y="0" x="12.5" name="SHIELD-2"/>
+<pad drill="0.8" y="0" x="5.46" name="6"/>
+<wire layer="21" width="0.127" y2="-11.43" x2="15.4" y1="-11.43" x1="-15.4"/>
+<wire layer="21" width="0.127" y2="4.57" x2="-15.4" y1="-11.43" x1="-15.4"/>
+<wire layer="21" width="0.127" y2="4.57" x2="15.4" y1="4.57" x1="-15.4"/>
+<wire layer="21" width="0.127" y2="-11.43" x2="15.4" y1="4.57" x1="15.4"/>
+<pad drill="0.8" y="0" x="3.17" name="7"/>
+<pad drill="0.8" y="0" x="0.88" name="8"/>
+<pad drill="0.8" y="0" x="-1.41" name="9"/>
+<pad drill="0.8" y="0" x="-3.7" name="10"/>
+<pad shape="square" drill="0.8" y="2.54" x="4.32" name="1"/>
+<pad drill="0.8" y="2.54" x="2.03" name="2"/>
+<pad drill="0.8" y="2.54" x="-0.26" name="3"/>
+<pad drill="0.8" y="2.54" x="-2.55" name="4"/>
+<pad drill="0.8" y="2.54" x="-4.84" name="5"/>
+<pad drill="0.8" y="-2.54" x="4.32" name="11"/>
+<pad drill="0.8" y="-2.54" x="2.03" name="12"/>
+<pad drill="0.8" y="-2.54" x="-0.26" name="13"/>
+<pad drill="0.8" y="-2.54" x="-2.55" name="14"/>
+<pad drill="0.8" y="-2.54" x="-4.84" name="15"/>
+<wire layer="51" width="0.127" y2="-17.43" x2="-8.15" y1="-11.43" x1="-8.15"/>
+<wire layer="51" width="0.127" y2="-17.43" x2="8.15" y1="-17.43" x1="-8.15"/>
+<wire layer="51" width="0.127" y2="-11.43" x2="8.15" y1="-17.43" x1="8.15"/>
+<text layer="25" size="1.27" y="5.08" x="-15.24">
+</text>
+<text layer="25" size="1.27" y="5.08" x="8.89">
+</text>
+</package>
+<package name="5747236-4">
+<description>
+</description>
+<pad shape="square" drill="1.1" y="0" x="8.89" name="1"/>
+<pad drill="1.1" y="0" x="6.35" name="2"/>
+<pad drill="1.1" y="0" x="3.81" name="3"/>
+<pad drill="1.1" y="0" x="1.27" name="4"/>
+<pad drill="1.1" y="0" x="-1.27" name="5"/>
+<pad drill="1.1" y="0" x="-3.81" name="6"/>
+<pad drill="1.1" y="0" x="-6.35" name="7"/>
+<pad drill="1.1" y="0" x="-8.89" name="8"/>
+<pad drill="1.1" y="2.8448" x="7.62" name="9"/>
+<pad drill="1.1" y="2.8448" x="5.08" name="10"/>
+<pad drill="1.1" y="2.8448" x="2.54" name="11"/>
+<pad drill="1.1" y="2.8448" x="0" name="12"/>
+<pad drill="1.1" y="2.8448" x="-2.54" name="13"/>
+<pad drill="1.1" y="2.8448" x="-5.08" name="14"/>
+<pad drill="1.1" y="2.8448" x="-7.62" name="15"/>
+<pad drill="3.2" y="1.4224" x="16.6624" name="SHIELD-1"/>
+<pad drill="3.2" y="1.4224" x="-16.6624" name="SHIELD-2"/>
+<wire layer="21" width="0.127" y2="10.922" x2="-19.558" y1="10.922" x1="-19.5707"/>
+<wire layer="21" width="0.127" y2="10.922" x2="19.558" y1="10.922" x1="-19.558"/>
+<wire layer="21" width="0.127" y2="-1.7272" x2="-19.558" y1="-1.7272" x1="-19.5707"/>
+<wire layer="21" width="0.127" y2="-1.7272" x2="19.558" y1="-1.7272" x1="-19.558"/>
+<wire layer="21" width="0.127" y2="-1.7272" x2="-19.558" y1="10.922" x1="-19.558"/>
+<wire layer="21" width="0.127" y2="-1.7272" x2="19.558" y1="10.922" x1="19.558"/>
+<wire layer="51" width="0.127" y2="16.891" x2="-12.6238" y1="10.922" x1="-12.6238"/>
+<wire layer="51" width="0.127" y2="16.891" x2="12.6238" y1="16.891" x1="-12.6238"/>
+<wire layer="51" width="0.127" y2="10.922" x2="12.6238" y1="16.891" x1="12.6238"/>
+<text layer="25" size="1.27" y="-3.81" x="-19.685">
+</text>
+<text layer="25" size="1.27" y="-3.81" x="12.7">
+</text>
+</package>
+</packages>
+<symbols>
+<symbol name="15-PIN_CONNECTOR">
+<description>
+</description>
+<pin length="middle" visible="pin" y="17.78" x="-7.62" name="1"/>
+<pin length="middle" visible="pin" y="15.24" x="-7.62" name="2"/>
+<pin length="middle" visible="pin" y="12.7" x="-7.62" name="3"/>
+<pin length="middle" visible="pin" y="10.16" x="-7.62" name="4"/>
+<pin length="middle" visible="pin" y="7.62" x="-7.62" name="5"/>
+<pin length="middle" visible="pin" y="5.08" x="-7.62" name="6"/>
+<pin length="middle" visible="pin" y="2.54" x="-7.62" name="7"/>
+<pin length="middle" visible="pin" y="0" x="-7.62" name="8"/>
+<wire layer="94" width="0.254" y2="-27.94" x2="-3.81" y1="20.32" x1="-3.81"/>
+<wire layer="94" width="0.254" y2="-27.94" x2="3.81" y1="-27.94" x1="-3.81"/>
+<wire layer="94" width="0.254" y2="20.32" x2="3.81" y1="-27.94" x1="3.81"/>
+<wire layer="94" width="0.254" y2="20.32" x2="-3.81" y1="20.32" x1="3.81"/>
+<wire layer="94" width="0.254" y2="18.542" x2="-1.778" y1="17.78" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="16.002" x2="-1.778" y1="15.24" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="13.462" x2="-1.778" y1="12.7" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="10.922" x2="-1.778" y1="10.16" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="8.382" x2="-1.778" y1="7.62" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="5.842" x2="-1.778" y1="5.08" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="3.302" x2="-1.778" y1="2.54" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="0.762" x2="-1.778" y1="0" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="17.018" x2="-1.778" y1="17.78" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="14.478" x2="-1.778" y1="15.24" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="11.938" x2="-1.778" y1="12.7" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="9.398" x2="-1.778" y1="10.16" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="6.858" x2="-1.778" y1="7.62" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="4.318" x2="-1.778" y1="5.08" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="1.778" x2="-1.778" y1="2.54" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-0.762" x2="-1.778" y1="0" x1="-2.54"/>
+<text layer="95" size="1.27" y="21.336" x="-3.81">
+</text>
+<pin length="middle" visible="pin" y="-2.54" x="-7.62" name="9"/>
+<pin length="middle" visible="pin" y="-5.08" x="-7.62" name="10"/>
+<pin length="middle" visible="pin" y="-7.62" x="-7.62" name="11"/>
+<pin length="middle" visible="pin" y="-10.16" x="-7.62" name="12"/>
+<pin length="middle" visible="pin" y="-12.7" x="-7.62" name="13"/>
+<pin length="middle" visible="pin" y="-15.24" x="-7.62" name="14"/>
+<pin length="middle" visible="pin" y="-17.78" x="-7.62" name="15"/>
+<wire layer="94" width="0.254" y2="-1.778" x2="-1.778" y1="-2.54" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-4.318" x2="-1.778" y1="-5.08" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-6.858" x2="-1.778" y1="-7.62" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-9.398" x2="-1.778" y1="-10.16" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-11.938" x2="-1.778" y1="-12.7" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-14.478" x2="-1.778" y1="-15.24" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-17.018" x2="-1.778" y1="-17.78" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-3.302" x2="-1.778" y1="-2.54" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-5.842" x2="-1.778" y1="-5.08" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-8.382" x2="-1.778" y1="-7.62" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-10.922" x2="-1.778" y1="-10.16" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-13.462" x2="-1.778" y1="-12.7" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-16.002" x2="-1.778" y1="-15.24" x1="-2.54"/>
+<wire layer="94" width="0.254" y2="-18.542" x2="-1.778" y1="-17.78" x1="-2.54"/>
+<pin rot="R90" length="middle" visible="pin" y="-33.02" x="0" name="GND"/>
+<text rot="R270" layer="96" size="1.27" y="5.08" x="5.08">
+</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset prefix="JP" name="15-PIN_CONNECTOR-*_?">
+<description>
+</description>
+<gates>
+<gate y="0" x="0" symbol="15-PIN_CONNECTOR" name="G$1"/>
+</gates>
+<devices>
+<device package="1734530-1" name="HD-22">
+<connects>
+<connect pad="1" pin="1" gate="G$1"/>
+<connect pad="10" pin="10" gate="G$1"/>
+<connect pad="11" pin="11" gate="G$1"/>
+<connect pad="12" pin="12" gate="G$1"/>
+<connect pad="13" pin="13" gate="G$1"/>
+<connect pad="14" pin="14" gate="G$1"/>
+<connect pad="15" pin="15" gate="G$1"/>
+<connect pad="2" pin="2" gate="G$1"/>
+<connect pad="3" pin="3" gate="G$1"/>
+<connect pad="4" pin="4" gate="G$1"/>
+<connect pad="5" pin="5" gate="G$1"/>
+<connect pad="6" pin="6" gate="G$1"/>
+<connect pad="7" pin="7" gate="G$1"/>
+<connect pad="8" pin="8" gate="G$1"/>
+<connect pad="9" pin="9" gate="G$1"/>
+<connect pad="SHIELD-1 SHIELD-2" pin="GND" gate="G$1"/>
+</connects>
+<technologies>
+<technology name="AMP">
+<attribute constant="no" value="Black" name="COLOR"/>
+<attribute constant="no" value="D-Sub, High Density" name="CONNECTOR_STYLE"/>
+<attribute constant="no" value="Receptacle, Female Sockets" name="CONNECTOR_TYPE"/>
+<attribute constant="no" value="Gold" name="CONTACT_FINISH"/>
+<attribute constant="no" value="Flash" name="CONTACT_FINISH_THICKNESS"/>
+<attribute constant="no" value="Signal" name="CONTACT_TYPE"/>
+<attribute constant="no" value="2A" name="CURRENT_RATING"/>
+<attribute constant="no" value="Board Lock" name="FEATURES"/>
+<attribute constant="no" value="Housing/Shell (4-40)" name="FLANGE_FEATURE"/>
+<attribute constant="no" value="Polyamide (PA9T), Nylon 9T" name="HOUSING_MATERIAL"/>
+<attribute constant="no" value="Through Hole, Right Angle" name="MOUNTINT_TYPE"/>
+<attribute constant="no" value="15" name="NUMBER_POSITIONS"/>
+<attribute constant="no" value="3" name="NUMBER_ROWS"/>
+<attribute constant="no" value="-55 ~ 105C" name="OPERATING_TEMPERATURE"/>
+<attribute constant="no" value="AMPLIMITE HD-22, AMP" name="SERIES"/>
+<attribute constant="no" value="Steel, Nickel Plated" name="SHELL_MATERIAL"/>
+<attribute constant="no" value="1 (DE, E) High Density" name="SHELL_SIZE"/>
+<attribute constant="no" value="Solder" name="TERMINATION"/>
+<attribute constant="no" value="125V" name="VOLTAGE_RATING"/>
+</technology>
+</technologies>
+</device>
+<device package="5747236-4" name="HD-20">
+<connects>
+<connect pad="1" pin="1" gate="G$1"/>
+<connect pad="10" pin="10" gate="G$1"/>
+<connect pad="11" pin="11" gate="G$1"/>
+<connect pad="12" pin="12" gate="G$1"/>
+<connect pad="13" pin="13" gate="G$1"/>
+<connect pad="14" pin="14" gate="G$1"/>
+<connect pad="15" pin="15" gate="G$1"/>
+<connect pad="2" pin="2" gate="G$1"/>
+<connect pad="3" pin="3" gate="G$1"/>
+<connect pad="4" pin="4" gate="G$1"/>
+<connect pad="5" pin="5" gate="G$1"/>
+<connect pad="6" pin="6" gate="G$1"/>
+<connect pad="7" pin="7" gate="G$1"/>
+<connect pad="8" pin="8" gate="G$1"/>
+<connect pad="9" pin="9" gate="G$1"/>
+<connect pad="SHIELD-1 SHIELD-2" pin="GND" gate="G$1"/>
+</connects>
+<technologies>
+<technology name="AMP">
+<attribute constant="no" value="Black" name="COLOR"/>
+<attribute constant="no" value="D-Sub" name="CONNECTOR_STYLE"/>
+<attribute constant="no" value="Plug, Male Pins" name="CONNECTOR_TYPE"/>
+<attribute constant="no" value="Gold" name="CONTACT_FINISH"/>
+<attribute constant="no" value="Flash" name="CONTACT_FINISH_THICKNESS"/>
+<attribute constant="no" value="Signal" name="CONTACT_TYPE"/>
+<attribute constant="no" value="" name="CURRENT_RATING"/>
+<attribute constant="no" value="Ground Strap, Grounding Indents" name="FEATURES"/>
+<attribute constant="no" value="Housing/Shell (4-40)" name="FLANGE_FEATURE"/>
+<attribute constant="no" value="Through Hole, Right Angle" name="MOUNTING_TYPE"/>
+<attribute constant="no" value="15" name="NUMBER_POSITIONS"/>
+<attribute constant="no" value="2" name="NUMBER_ROWS"/>
+<attribute constant="no" value="-55 ~ 105C" name="OPERATING_TEMPERATURE"/>
+<attribute constant="no" value="AMPLIMITE HD-20, AMP" name="SERIES"/>
+<attribute constant="no" value="Steel, Tin Plated" name="SHELL_MATERIAL"/>
+<attribute constant="no" value="2 (DA, A)" name="SHELL_SIZE"/>
+<attribute constant="no" value="Solder" name="TERMINATION"/>
+<attribute constant="no" value="125V" name="VOLTAGE_RATING"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

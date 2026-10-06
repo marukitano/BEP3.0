@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid altunit="inch" altunitdist="inch" altdistance="0.01" display="no" multiple="1" style="lines" unit="inch" unitdist="inch" distance="0.1"/>
+<layers>
+<layer active="yes" visible="yes" fill="1" color="4" name="Top" number="1"/>
+<layer active="yes" visible="no" fill="3" color="1" name="Route2" number="2"/>
+<layer active="yes" visible="no" fill="3" color="4" name="Route3" number="3"/>
+<layer active="yes" visible="no" fill="4" color="1" name="Route4" number="4"/>
+<layer active="yes" visible="no" fill="4" color="4" name="Route5" number="5"/>
+<layer active="yes" visible="no" fill="8" color="1" name="Route6" number="6"/>
+<layer active="yes" visible="no" fill="8" color="4" name="Route7" number="7"/>
+<layer active="yes" visible="no" fill="2" color="1" name="Route8" number="8"/>
+<layer active="yes" visible="no" fill="2" color="4" name="Route9" number="9"/>
+<layer active="yes" visible="no" fill="7" color="1" name="Route10" number="10"/>
+<layer active="yes" visible="no" fill="7" color="4" name="Route11" number="11"/>
+<layer active="yes" visible="no" fill="5" color="1" name="Route12" number="12"/>
+<layer active="yes" visible="no" fill="5" color="4" name="Route13" number="13"/>
+<layer active="yes" visible="no" fill="6" color="1" name="Route14" number="14"/>
+<layer active="yes" visible="no" fill="6" color="4" name="Route15" number="15"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Bottom" number="16"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pads" number="17"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Vias" number="18"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Unrouted" number="19"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="Dimension" number="20"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tPlace" number="21"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bPlace" number="22"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="tOrigins" number="23"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="bOrigins" number="24"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tNames" number="25"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bNames" number="26"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tValues" number="27"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bValues" number="28"/>
+<layer active="yes" visible="no" fill="3" color="7" name="tStop" number="29"/>
+<layer active="yes" visible="no" fill="6" color="7" name="bStop" number="30"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tCream" number="31"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bCream" number="32"/>
+<layer active="yes" visible="no" fill="3" color="6" name="tFinish" number="33"/>
+<layer active="yes" visible="no" fill="6" color="6" name="bFinish" number="34"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tGlue" number="35"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bGlue" number="36"/>
+<layer active="yes" visible="no" fill="1" color="7" name="tTest" number="37"/>
+<layer active="yes" visible="no" fill="1" color="7" name="bTest" number="38"/>
+<layer active="yes" visible="yes" fill="11" color="4" name="tKeepout" number="39"/>
+<layer active="yes" visible="yes" fill="11" color="1" name="bKeepout" number="40"/>
+<layer active="yes" visible="yes" fill="10" color="4" name="tRestrict" number="41"/>
+<layer active="yes" visible="yes" fill="10" color="1" name="bRestrict" number="42"/>
+<layer active="yes" visible="yes" fill="10" color="2" name="vRestrict" number="43"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Drills" number="44"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Holes" number="45"/>
+<layer active="yes" visible="no" fill="1" color="3" name="Milling" number="46"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Measures" number="47"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Document" number="48"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Reference" number="49"/>
+<layer active="no" visible="no" fill="1" color="7" name="dxf" number="50"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tDocu" number="51"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bDocu" number="52"/>
+<layer active="no" visible="no" fill="9" color="7" name="tGND_GNDA" number="53"/>
+<layer active="no" visible="no" fill="9" color="1" name="bGND_GNDA" number="54"/>
+<layer active="no" visible="no" fill="1" color="7" name="wert" number="56"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Nets" number="91"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Busses" number="92"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pins" number="93"/>
+<layer active="yes" visible="yes" fill="1" color="4" name="Symbols" number="94"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Names" number="95"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Values" number="96"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Info" number="97"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Guide" number="98"/>
+<layer active="no" visible="no" fill="1" color="7" name="Muster" number="100"/>
+<layer active="yes" visible="no" fill="4" color="12" name="Patch_Top" number="101"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Vscore" number="102"/>
+<layer active="yes" visible="no" fill="1" color="7" name="tMap" number="103"/>
+<layer active="yes" visible="yes" fill="1" color="16" name="Name" number="104"/>
+<layer active="yes" visible="no" fill="1" color="7" name="tPlate" number="105"/>
+<layer active="yes" visible="no" fill="1" color="7" name="bPlate" number="106"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Crop" number="107"/>
+<layer active="yes" visible="no" fill="4" color="9" name="Patch_BOT" number="116"/>
+<layer active="yes" visible="no" fill="1" color="7" name="_tsilk" number="121"/>
+<layer active="yes" visible="no" fill="1" color="7" name="_bsilk" number="122"/>
+<layer active="yes" visible="no" fill="1" color="7" name="_tNames" number="125"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Drill_legend" number="144"/>
+<layer active="yes" visible="no" fill="1" color="7" name="HeatSink" number="151"/>
+<layer active="yes" visible="no" fill="10" color="1" name="200bmp" number="200"/>
+<layer active="yes" visible="no" fill="10" color="2" name="201bmp" number="201"/>
+<layer active="yes" visible="no" fill="10" color="3" name="202bmp" number="202"/>
+<layer active="yes" visible="no" fill="10" color="4" name="203bmp" number="203"/>
+<layer active="yes" visible="no" fill="10" color="5" name="204bmp" number="204"/>
+<layer active="yes" visible="no" fill="10" color="6" name="205bmp" number="205"/>
+<layer active="yes" visible="no" fill="10" color="7" name="206bmp" number="206"/>
+<layer active="yes" visible="no" fill="10" color="8" name="207bmp" number="207"/>
+<layer active="yes" visible="no" fill="10" color="9" name="208bmp" number="208"/>
+<layer active="yes" visible="no" fill="1" color="7" name="209bmp" number="209"/>
+<layer active="yes" visible="no" fill="1" color="7" name="210bmp" number="210"/>
+<layer active="yes" visible="no" fill="1" color="7" name="211bmp" number="211"/>
+<layer active="yes" visible="no" fill="1" color="7" name="212bmp" number="212"/>
+<layer active="yes" visible="no" fill="1" color="7" name="213bmp" number="213"/>
+<layer active="yes" visible="no" fill="1" color="7" name="214bmp" number="214"/>
+<layer active="yes" visible="no" fill="1" color="7" name="215bmp" number="215"/>
+<layer active="yes" visible="no" fill="1" color="7" name="216bmp" number="216"/>
+<layer active="no" visible="no" fill="1" color="18" name="217bmp" number="217"/>
+<layer active="no" visible="no" fill="1" color="19" name="218bmp" number="218"/>
+<layer active="no" visible="no" fill="1" color="20" name="219bmp" number="219"/>
+<layer active="no" visible="no" fill="1" color="21" name="220bmp" number="220"/>
+<layer active="no" visible="no" fill="1" color="22" name="221bmp" number="221"/>
+<layer active="no" visible="no" fill="1" color="23" name="222bmp" number="222"/>
+<layer active="no" visible="no" fill="1" color="24" name="223bmp" number="223"/>
+<layer active="no" visible="no" fill="1" color="25" name="224bmp" number="224"/>
+<layer active="no" visible="no" fill="1" color="3" name="Descript" number="250"/>
+<layer active="no" visible="no" fill="11" color="12" name="SMDround" number="251"/>
+<layer active="yes" visible="no" fill="1" color="7" name="cooling" number="254"/>
+</layers>
+<library>
+<packages>
+<package name="MSOP-10">
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="2.0445" x="-1" name="10"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="2.0445" x="-0.5" name="9"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="2.0445" x="0" name="8"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="2.0445" x="0.5" name="7"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="2.0445" x="1" name="6"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="-2.0445" x="1" name="5"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="-2.0445" x="0.5" name="4"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="-2.0445" x="0" name="3"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="-2.0445" x="-0.5" name="2"/>
+<smd rot="R180" layer="1" dy="0.889" dx="0.305" y="-2.0445" x="-1" name="1"/>
+<smd rot="R90" layer="1" dy="1.88" dx="1.68" y="0" x="0" name="PAD"/>
+<wire layer="21" width="0.127" y2="2.75" x2="1.5" y1="2.75" x1="-1.5"/>
+<wire layer="21" width="0.127" y2="-2.75" x2="1.5" y1="2.75" x1="1.5"/>
+<wire layer="21" width="0.127" y2="-2.75" x2="-1.5" y1="-2.75" x1="1.5"/>
+<wire layer="21" width="0.127" y2="2.75" x2="-1.5" y1="-2.75" x1="-1.5"/>
+<circle layer="21" width="0.127" radius="0.25" y="-2.75" x="-1.5"/>
+<text font="vector" layer="25" size="0.8128" y="3" x="-1.5">
+</text>
+</package>
+<package name="DFN-10">
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="-1.425" x="-1" name="1"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="-1.425" x="-0.5" name="2"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="-1.425" x="0" name="3"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="-1.425" x="0.5" name="4"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="-1.425" x="1" name="5"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="1.425" x="-1" name="10"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="1.425" x="-0.5" name="9"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="1.425" x="0" name="8"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="1.425" x="0.5" name="7"/>
+<smd rot="R90" layer="1" dy="0.25" dx="0.7" y="1.425" x="1" name="6"/>
+<smd rot="R90" layer="1" dy="2.38" dx="1.65" y="0" x="0" name="PAD"/>
+<wire layer="21" width="0.127" y2="-2" x2="-1.5" y1="2" x1="-1.5"/>
+<wire layer="21" width="0.127" y2="-2" x2="1.5" y1="-2" x1="-1.5"/>
+<wire layer="21" width="0.127" y2="2" x2="1.5" y1="-2" x1="1.5"/>
+<wire layer="21" width="0.127" y2="2" x2="-1.5" y1="2" x1="1.5"/>
+<circle layer="21" width="0.127" radius="0.25" y="-2" x="-1.5"/>
+<text font="vector" layer="25" size="0.8128" y="2.25" x="-1.5">
+</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LT3757">
+<pin length="short" visible="pin" y="5.08" x="-12.7" name="VC"/>
+<pin length="short" visible="pin" y="2.54" x="-12.7" name="FBX"/>
+<pin length="short" visible="pin" y="0" x="-12.7" name="SS"/>
+<pin length="short" visible="pin" y="-2.54" x="-12.7" name="RT"/>
+<pin length="short" visible="pin" y="-5.08" x="-12.7" name="SYNC"/>
+<pin rot="R180" length="short" visible="pin" y="5.08" x="12.7" name="VIN"/>
+<pin rot="R180" length="short" visible="pin" y="2.54" x="12.7" name="SHDN"/>
+<pin rot="R180" length="short" visible="pin" y="0" x="12.7" name="INTVCC"/>
+<pin rot="R180" length="short" visible="pin" y="-2.54" x="12.7" name="GATE"/>
+<pin rot="R180" length="short" visible="pin" y="-5.08" x="12.7" name="SENSE"/>
+<wire layer="94" width="0.254" y2="-10.16" x2="-10.16" y1="7.62" x1="-10.16"/>
+<wire layer="94" width="0.254" y2="-10.16" x2="10.16" y1="-10.16" x1="-10.16"/>
+<wire layer="94" width="0.254" y2="7.62" x2="10.16" y1="-10.16" x1="10.16"/>
+<wire layer="94" width="0.254" y2="7.62" x2="-10.16" y1="7.62" x1="10.16"/>
+<text font="vector" layer="95" size="0.8128" y="10.16" x="-10.16">
+</text>
+<text font="vector" layer="96" size="0.8128" y="10.16" x="-2.54">
+</text>
+<pin rot="R180" length="short" visible="pin" y="-7.62" x="12.7" name="PAD"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset uservalue="yes" prefix="U" name="LT3757">
+<gates>
+<gate y="0" x="0" symbol="LT3757" name="G$1"/>
+</gates>
+<devices>
+<device package="DFN-10" name="DFN-10">
+<connects>
+<connect pad="2" pin="FBX" gate="G$1"/>
+<connect pad="7" pin="GATE" gate="G$1"/>
+<connect pad="8" pin="INTVCC" gate="G$1"/>
+<connect pad="PAD" pin="PAD" gate="G$1"/>
+<connect pad="4" pin="RT" gate="G$1"/>
+<connect pad="6" pin="SENSE" gate="G$1"/>
+<connect pad="9" pin="SHDN" gate="G$1"/>
+<connect pad="3" pin="SS" gate="G$1"/>
+<connect pad="5" pin="SYNC" gate="G$1"/>
+<connect pad="1" pin="VC" gate="G$1"/>
+<connect pad="10" pin="VIN" gate="G$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device package="MSOP-10" name="MSOP-10">
+<connects>
+<connect pad="2" pin="FBX" gate="G$1"/>
+<connect pad="7" pin="GATE" gate="G$1"/>
+<connect pad="8" pin="INTVCC" gate="G$1"/>
+<connect pad="PAD" pin="PAD" gate="G$1"/>
+<connect pad="4" pin="RT" gate="G$1"/>
+<connect pad="6" pin="SENSE" gate="G$1"/>
+<connect pad="9" pin="SHDN" gate="G$1"/>
+<connect pad="3" pin="SS" gate="G$1"/>
+<connect pad="5" pin="SYNC" gate="G$1"/>
+<connect pad="1" pin="VC" gate="G$1"/>
+<connect pad="10" pin="VIN" gate="G$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

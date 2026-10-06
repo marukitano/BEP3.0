@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid altunit="inch" altunitdist="inch" altdistance="0.025" display="yes" multiple="1" style="lines" unit="inch" unitdist="inch" distance="0.05"/>
+<layers>
+<layer active="yes" visible="yes" fill="1" color="4" name="Top" number="1"/>
+<layer active="yes" visible="no" fill="3" color="1" name="Route2" number="2"/>
+<layer active="yes" visible="no" fill="3" color="4" name="Route3" number="3"/>
+<layer active="yes" visible="no" fill="4" color="1" name="Route4" number="4"/>
+<layer active="yes" visible="no" fill="4" color="4" name="Route5" number="5"/>
+<layer active="yes" visible="no" fill="8" color="1" name="Route6" number="6"/>
+<layer active="yes" visible="no" fill="8" color="4" name="Route7" number="7"/>
+<layer active="yes" visible="no" fill="2" color="1" name="Route8" number="8"/>
+<layer active="yes" visible="no" fill="2" color="4" name="Route9" number="9"/>
+<layer active="yes" visible="no" fill="7" color="1" name="Route10" number="10"/>
+<layer active="yes" visible="no" fill="7" color="4" name="Route11" number="11"/>
+<layer active="yes" visible="no" fill="5" color="1" name="Route12" number="12"/>
+<layer active="yes" visible="no" fill="5" color="4" name="Route13" number="13"/>
+<layer active="yes" visible="no" fill="6" color="1" name="Route14" number="14"/>
+<layer active="yes" visible="no" fill="6" color="4" name="Route15" number="15"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Bottom" number="16"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pads" number="17"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Vias" number="18"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Unrouted" number="19"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="Dimension" number="20"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tPlace" number="21"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bPlace" number="22"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="tOrigins" number="23"/>
+<layer active="yes" visible="yes" fill="1" color="15" name="bOrigins" number="24"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tNames" number="25"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bNames" number="26"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tValues" number="27"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bValues" number="28"/>
+<layer active="yes" visible="no" fill="3" color="7" name="tStop" number="29"/>
+<layer active="yes" visible="no" fill="6" color="7" name="bStop" number="30"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tCream" number="31"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bCream" number="32"/>
+<layer active="yes" visible="no" fill="3" color="6" name="tFinish" number="33"/>
+<layer active="yes" visible="no" fill="6" color="6" name="bFinish" number="34"/>
+<layer active="yes" visible="no" fill="4" color="7" name="tGlue" number="35"/>
+<layer active="yes" visible="no" fill="5" color="7" name="bGlue" number="36"/>
+<layer active="yes" visible="no" fill="1" color="7" name="tTest" number="37"/>
+<layer active="yes" visible="no" fill="1" color="7" name="bTest" number="38"/>
+<layer active="yes" visible="yes" fill="11" color="4" name="tKeepout" number="39"/>
+<layer active="yes" visible="yes" fill="11" color="1" name="bKeepout" number="40"/>
+<layer active="yes" visible="yes" fill="10" color="4" name="tRestrict" number="41"/>
+<layer active="yes" visible="yes" fill="10" color="1" name="bRestrict" number="42"/>
+<layer active="yes" visible="yes" fill="10" color="2" name="vRestrict" number="43"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Drills" number="44"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Holes" number="45"/>
+<layer active="yes" visible="no" fill="1" color="3" name="Milling" number="46"/>
+<layer active="yes" visible="no" fill="1" color="7" name="Measures" number="47"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Document" number="48"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Reference" number="49"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="dxf" number="50"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="tDocu" number="51"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="bDocu" number="52"/>
+<layer active="no" visible="no" fill="9" color="7" name="tGND_GNDA" number="53"/>
+<layer active="no" visible="no" fill="9" color="1" name="bGND_GNDA" number="54"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="wert" number="56"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Nets" number="91"/>
+<layer active="yes" visible="yes" fill="1" color="1" name="Busses" number="92"/>
+<layer active="yes" visible="yes" fill="1" color="2" name="Pins" number="93"/>
+<layer active="yes" visible="yes" fill="1" color="4" name="Symbols" number="94"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Names" number="95"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Values" number="96"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Info" number="97"/>
+<layer active="yes" visible="yes" fill="1" color="6" name="Guide" number="98"/>
+<layer active="no" visible="no" fill="1" color="7" name="Muster" number="100"/>
+<layer active="yes" visible="yes" fill="4" color="12" name="Patch_Top" number="101"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Vscore" number="102"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="Name" number="104"/>
+<layer active="yes" visible="yes" fill="4" color="9" name="Patch_BOT" number="116"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="_tsilk" number="121"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="_bsilk" number="122"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="HeatSink" number="151"/>
+<layer active="no" visible="no" fill="10" color="1" name="200bmp" number="200"/>
+<layer active="no" visible="no" fill="1" color="2" name="201bmp" number="201"/>
+<layer active="no" visible="no" fill="1" color="3" name="202bmp" number="202"/>
+<layer active="no" visible="no" fill="1" color="3" name="Descript" number="250"/>
+<layer active="no" visible="no" fill="11" color="12" name="SMDround" number="251"/>
+<layer active="yes" visible="yes" fill="1" color="7" name="cooling" number="254"/>
+</layers>
+<library>
+<description>
+</description>
+<packages>
+<package name="BT_BOARD_FOOTPRINT">
+<description>
+</description>
+<pad diameter="1.778" drill="0.9" y="3.81" x="-16.51" name="RX"/>
+<pad diameter="1.778" drill="0.9" y="1.27" x="-16.51" name="TX"/>
+<pad diameter="1.778" drill="0.9" y="-1.27" x="-16.51" name="GND"/>
+<text font="vector" layer="21" size="0.6096" y="3.556" x="-15.24">
+</text>
+<text font="vector" layer="21" size="0.6096" y="1.016" x="-15.24">
+</text>
+<text font="vector" layer="21" size="0.6096" y="-1.524" x="-15.24">
+</text>
+<pad diameter="1.778" drill="0.9" y="-3.81" x="-16.51" name="VCC"/>
+<text font="vector" layer="21" size="0.6096" y="-4.064" x="-15.24">
+</text>
+<wire layer="21" width="0.127" y2="-6.985" x2="-17.78" y1="6.985" x1="-17.78"/>
+<wire layer="21" width="0.127" y2="-6.985" x2="16.51" y1="-6.985" x1="-17.78"/>
+<wire layer="21" width="0.127" y2="6.985" x2="16.51" y1="-6.985" x1="16.51"/>
+<wire layer="21" width="0.127" y2="6.985" x2="-17.78" y1="6.985" x1="16.51"/>
+<text ratio="12" font="vector" layer="25" size="1.016" y="7.493" x="-17.78">
+</text>
+</package>
+<package name="BT_BOARD_FOOTPRINT_STANDING">
+<pad diameter="1.6764" drill="0.9" y="3.81" x="-3.81" name="RX"/>
+<pad diameter="1.6764" drill="0.9" y="1.27" x="-3.81" name="TX"/>
+<pad shape="square" diameter="1.6764" drill="0.9" y="-1.27" x="-3.81" name="GND"/>
+<text font="vector" layer="21" size="0.6096" y="3.556" x="-2.286">
+</text>
+<text font="vector" layer="21" size="0.6096" y="1.016" x="-2.286">
+</text>
+<text font="vector" layer="21" size="0.6096" y="-1.524" x="-2.286">
+</text>
+<pad diameter="1.6764" drill="0.9" y="-3.81" x="-3.81" name="VCC"/>
+<text font="vector" layer="21" size="0.6096" y="-4.064" x="-2.286">
+</text>
+<wire layer="21" width="0.127" y2="-7.985" x2="0.47" y1="-7.985" x1="-2.48"/>
+<wire layer="21" width="0.127" y2="7.985" x2="-2.58" y1="7.985" x1="0.47"/>
+<text ratio="12" font="vector" layer="25" size="0.8128" y="5.293" x="-5.08">
+</text>
+<wire layer="21" width="0.127" y2="5.08" x2="-5.08" y1="-5.08" x1="-5.08"/>
+<wire layer="21" width="0.127" y2="5.08" x2="-2.54" y1="5.08" x1="-5.08"/>
+<wire layer="21" width="0.127" y2="7.95" x2="-2.54" y1="5.08" x1="-2.54"/>
+<wire layer="21" width="0.127" y2="-5.08" x2="-2.54" y1="-5.08" x1="-5.08"/>
+<wire layer="21" width="0.127" y2="-7.95" x2="-2.54" y1="-5.08" x1="-2.54"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BT_BOARD_SCHEMATIC">
+<description>
+</description>
+<pin length="middle" y="2.54" x="-12.7" name="GND"/>
+<pin length="middle" y="7.62" x="-12.7" name="VCC"/>
+<pin length="middle" y="-2.54" x="-12.7" name="TX"/>
+<pin length="middle" y="-7.62" x="-12.7" name="RX"/>
+<wire layer="94" width="0.254" y2="-10.16" x2="-7.62" y1="10.16" x1="-7.62"/>
+<wire layer="94" width="0.254" y2="-10.16" x2="7.62" y1="-10.16" x1="-7.62"/>
+<wire layer="94" width="0.254" y2="10.16" x2="7.62" y1="-10.16" x1="7.62"/>
+<wire layer="94" width="0.254" y2="10.16" x2="-7.62" y1="10.16" x1="7.62"/>
+<text ratio="15" layer="95" size="1.778" y="10.922" x="-7.62">
+</text>
+<text ratio="15" layer="96" size="1.778" y="-12.7" x="-7.62">
+</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset prefix="J_BT_BOARD_" name="BLUETOOTH_BOARD">
+<description>
+</description>
+<gates>
+<gate y="0" x="0" symbol="BT_BOARD_SCHEMATIC" name="J_BT_BOARD"/>
+</gates>
+<devices>
+<device package="BT_BOARD_FOOTPRINT" name="">
+<connects>
+<connect pad="GND" pin="GND" gate="J_BT_BOARD"/>
+<connect pad="RX" pin="RX" gate="J_BT_BOARD"/>
+<connect pad="TX" pin="TX" gate="J_BT_BOARD"/>
+<connect pad="VCC" pin="VCC" gate="J_BT_BOARD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device package="BT_BOARD_FOOTPRINT_STANDING" name="STANDING">
+<connects>
+<connect pad="GND" pin="GND" gate="J_BT_BOARD"/>
+<connect pad="RX" pin="RX" gate="J_BT_BOARD"/>
+<connect pad="TX" pin="TX" gate="J_BT_BOARD"/>
+<connect pad="VCC" pin="VCC" gate="J_BT_BOARD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

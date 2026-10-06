@@ -1,0 +1,102 @@
+Bill of Material from BEP2_rev1 seeed.sch, 97 parts, as of 05.05.2016 11:49:22
+
+Part		Description					Sheet
+1		WAGO SREW CLAMP					1
+2		WAGO SREW CLAMP					1
+C1		CAPACITOR, European symbol			1
+C2		302010183					1
+C3		302010183					1
+C4		302010165					1
+C5		302010165					1
+C6		CAPACITOR, European symbol			1
+C7		CAPACITOR, European symbol			1
+C8		302010146					1
+D1		304010013					1
+D2		304010013					1
+D8		304010013					1
+D10		304010013					1
+D11		304010013					1
+D12		304010013					1
+D13		304010013					1
+D14		304010013					1
+D15		304010013					1
+IC1		VOLTAGE REGULATOR				1
+IC3		BCD to decimal DECODER				1
+IC4		Positive VOLTAGE REGULATOR			1
+IC6		DRIVER ARRAY					1
+IC7		Low Power Low Offset Voltage Quad Comparators	1
+J1		.100" (2.54mm) Center Header - 2 Pin		1
+LED1		LED						1
+LED2		LED						1
+LED3		LED						1
+LED4		LED						1
+LED5		LED						1
+LED6		LED						1
+LED7		LED						1
+Q1		305030010					1
+Q2		305020006					1
+Q3		 						1
+R1		301010306					1
+R2		301010361					1
+R3		301010315					1
+R4		301010319					1
+R5		301010361					1
+R6		301010361					1
+R7		301010104					1
+R8		301010104					1
+R9		301010306					1
+R10		301010196					1
+R11		301010319					1
+R12		301010196					1
+R13		301010311					1
+R14		301010196					1
+R15		301010241					1
+R16		301010361					1
+R17		301010333					1
+R18		301010405					1
+R19		301010361					1
+R20		301010405					1
+R21		301010405					1
+R22		RESISTOR, European symbol			1
+R23		RESISTOR, European symbol			1
+R24		RESISTOR, European symbol			1
+R25		RESISTOR, European symbol			1
+R26		RESISTOR, European symbol			1
+R27		RESISTOR, European symbol			1
+R28		RESISTOR, European symbol			1
+R29		301010196					1
+R30		301010196					1
+R31		301010196					1
+R32		RESISTOR, European symbol			1
+R38		301010311					1
+R39		RESISTOR, European symbol			1
+T1		 						1
+TACHO_BEL	TEST PIN					1
+TP1		TEST PIN					1
+TP2		TEST PIN					1
+TP3		TEST PIN					1
+TP4		TEST PIN					1
+TP5		TEST PIN					1
+TP6		TEST PIN					1
+TP7		TEST PIN					1
+TP8		TEST PIN					1
+TP9		TEST PIN					1
+TP10		TEST PIN					1
+TP11		TEST PIN					1
+TP12		TEST PIN					1
+TP16		TEST PIN					1
+TP17		TEST PIN					1
+TP18		TEST PIN					1
+TP19		TEST PIN					1
+TP21		TEST PIN					1
+TP22		TEST PIN					1
+TP23		TEST PIN					1
+TP24		TEST PIN					1
+TP25		TEST PIN					1
+TP26		TEST PIN					1
+X1		BMW CONNECTOR					1
+X2		.100" (2.54mm) Center Header - 2 Pin		1
+X3		.100" (2.54mm) Center Header - 5 Pin		1
+ZüNDSPULE	TEST PIN					1
+
+
