@@ -1,5 +1,9 @@
 # BEP3.0
 
+<p align="center">
+  <img src="BEP_Cover.png" width="720" alt="BEP3.0">
+</p>
+
 **BEP3.0** is an electronics interface for classic BMW K-series motorcycles.
 
 It was developed to make replacing the original instrument cluster ("Brotbox")
